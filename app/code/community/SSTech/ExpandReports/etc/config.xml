@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SSTech_ExpandReports>
+            <version>0.1.0</version>
+        </SSTech_ExpandReports>
+    </modules>
+    <adminhtml>
+        <events>
+            <core_block_abstract_prepare_layout_after>
+                <observers>
+                    <addExtendReportsAction>
+                        <type>model</type>
+                        <class>SSTech_ExpandReports_Model_Observer</class>
+                        <method>coreBlockAbstractPrepareLayoutAfter</method>
+                    </addExtendReportsAction>
+                </observers>
+            </core_block_abstract_prepare_layout_after>
+        </events>
+    </adminhtml>
+    <global>
+        <helpers>
+            <expandreports>
+                <class>SSTech_ExpandReports_Helper</class>
+            </expandreports>
+        </helpers>
+        <models>
+            <reports_resource>
+                <rewrite>
+                    <customer_orders_collection>SSTech_ExpandReports_Model_Resource_Customer_Orders_Collection</customer_orders_collection>
+                </rewrite>
+            </reports_resource>
+        </models>
+    </global>
+</config>

@@ -1,0 +1,17 @@
+.new_customer{
+    width: 26px;
+    height: 26px;
+    margin: 0 auto;
+}
+.returning_customer{
+    width: 26px;
+    height: 26px;
+    margin: 0 auto;
+}
+#gridOrdersCustomer_table .subtotal{
+    font-size: 13px;
+    font-weight: bold;
+}
+#gridOrdersCustomer_table tfoot th{
+    font-size: 15px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>SSTech_ExpandReports</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>Open Source License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Small Extension which will show New and Recurring Customer in Reports Section </summary>
+    <description>Small Extension which will show New and Recurring Customer in Reports Section.</description>
+    <notes>stable version release</notes>
+    <authors><author><name>STek</name><user>SSTech</user><email>sandynareshg@gmail.com</email></author></authors>
+    <date>2014-07-05</date>
+    <time>08:05:55</time>
+    <contents><target name="mageetc"><dir name="."><file name="SSTech_ExpandReports.xml" hash=""/></dir></target><target name="magecommunity"><dir name="SSTech"><dir name="ExpandReports"><dir name="Helper"><file name="Data.php" hash="c064db293aaabf34ece6e7741581be5a"/></dir><dir name="Model"><file name="Observer.php" hash="d582871bdd66be1088e9298ac9055789"/><dir name="Resource"><dir name="Customer"><dir name="Orders"><file name="Collection.php" hash="bb28d198bc1f00e7c9202cba032f06ed"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="a99d74ff72ca7a083bbc5d4885712a9f"/></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="expandreports"><dir name="css"><file name="expandreports.css" hash="fa304db787e5b127f19ebbb12ba16348"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
